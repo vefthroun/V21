@@ -1,5 +1,7 @@
 ## Verkefni 1.1 (5%)
 
+Svaraðu spurningunum eftir bestu getu og vistaðu skjalið aftur í VEF2VF geymslu þína á Github.
+
 ---
 
 * Hvað er það kallað þegar vafri (client) sendir fyrirspurn um að birta ákveðna vefsíðu á vefþjón (web server)?
