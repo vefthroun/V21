@@ -5,10 +5,10 @@ Svaraðu spurningunum eftir bestu getu og vistaðu skjalið aftur í VEF2VF geym
 ---
 
 1. Hvað er það kallað þegar vafri (client) sendir fyrirspurn um að birta ákveðna vefsíðu á vefþjón (web server)?
-    1. Query
-    1. Request
-    1. Response
-    * Svar:  
+  1. Query
+  1. Request
+  1. Response
+  * Svar:  
 1. Gefum okkur að vafri sendi fyrirspurn á vefþjón og vefþjónn sendir til baka boð sem segir að allt hafi heppnast án villu.  Hvaða status code fær vafrinn frá vefþjóninum?
     1. 100 OK
     2. 200 OK
