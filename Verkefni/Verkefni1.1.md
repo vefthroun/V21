@@ -9,12 +9,15 @@ Svaraðu spurningunum eftir bestu getu og vistaðu skjalið aftur í VEF2VF geym
     2. Request
     3. Response
     
-**Svar:**  
+    **Svar:**  
 1. Gefum okkur að vafri sendi fyrirspurn á vefþjón og vefþjónn sendir til baka boð sem segir að allt hafi heppnast án villu.  Hvaða status code fær vafrinn frá vefþjóninum?
     1. 100 OK
     2. 200 OK
     3. 404 OK
     * Svar: 
+
+---
+
 1. Hver er nýjast útgáfa HTTP staðalsins?
     1. HTTP/1.0
     2. HTTP/1.1
