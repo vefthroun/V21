@@ -9,11 +9,11 @@ Svaraðu eftirfarandi spurningunum eftir bestu getu um undirstöðuatriði [to�
 
 #### 1.2. Vefur í Flask - Python (**9%**)
 Útfærðu vefforrit í Flask. Vefforritið vísar á 3 síður (app.route), 1 rót og 2 undirsíður. 
-
-1. Rót síðu (index) inniheldur virka hlekki á 2 „undirsíður“. Þegar smellt er á hvern hlekk fyrir sig er farið á viðkomandi síðu (verður að virka).
+Rót síðu (index) inniheldur virka hlekki á 2 „undirsíður“. Þegar smellt er á hvern hlekk fyrir sig er farið á viðkomandi síðu (verður að virka).
 Dæmi:<br>
 ![Sýnidæmi](https://github.com/vefthroun/V21/blob/main/Verkefni/Myndir/verkefni1.png)
-1. Önnur og þriðja undirsíðan geta verið afrit af forsíðunni með nýjum fyrirsögnum og tenglum sem vísa á hinar síðurnar. 
+
+Önnur og þriðja undirsíðan geta verið afrit af forsíðunni með nýjum fyrirsögnum og tenglum sem vísa á hinar síðurnar. 
 [Sýnidæmi](https://github.com/vefthroun/basic-flask)
 
 ---
