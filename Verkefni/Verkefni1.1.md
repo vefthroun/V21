@@ -1,4 +1,4 @@
-## Verkefni 1.1 (5%)
+### Verkefni 1.1 (5%)
 
 Svaraðu spurningunum eftir bestu getu og vistaðu skjalið aftur í VEF2VF geymslu þína á Github.
 
