@@ -23,7 +23,7 @@ Önnur og þriðja undirsíðan geta verið afrit af forsíðunni með nýju
 - Verkefni 1.1 Spurningum er svarað.
 - Verkefni 1.2 Flask vefforrit virkar staðbundið (local) og er vistað á eigin Github reikningi.
 
-Skilaðu tengli í Innu sem vísar í (Privat) GitHub geymslu sem inniheldur:
+**Skilaðu** tengli í Innu sem vísar í e. private GitHub geymslu sem inniheldur:
 
 1. `netsamskipti.md` þar sem öllum spurningunum hefur verið svarað.
 1. `app.py` skrá sem inniheldur Flask py kóða verkefnis.
