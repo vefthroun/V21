@@ -1,3 +1,7 @@
+## Verkefni 1.1 (5%)
+
+---
+
 * Hvað er það kallað þegar vafri (client) sendir fyrirspurn um að birta ákveðna vefsíðu á vefþjón (web server)?
   1. Query
   2. Request
