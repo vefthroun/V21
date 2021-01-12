@@ -19,6 +19,7 @@ if __name__ == '__main__':
  
 # Keyrðu python skránna og skoðaðu url í vafra
 ```
+---
 
 #### Aðrir möguleikar
 
