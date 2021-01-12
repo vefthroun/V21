@@ -1,7 +1,3 @@
-## Halló heimur 
-- https://flask.palletsprojects.com/en/1.1.x/quickstart/
-- http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/
-
 ## Halló heimur með (innbyggðum vef miðlara)
 
 ```python
@@ -24,3 +20,8 @@ if __name__ == '__main__':
   
 # Keyrðu python skránna og skoðaðu url í vafra
 ```
+---
+
+### Sjá einnig
+- https://flask.palletsprojects.com/en/1.1.x/quickstart/
+- http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/
