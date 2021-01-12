@@ -1,10 +1,10 @@
 ## Halló heimur 
 - https://flask.palletsprojects.com/en/1.1.x/quickstart/
+- http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/
 
-## Halló heimur með innbyggðum flask server
+## Halló heimur með (innbyggðum vef miðlara)
 
 ```python
-
 # import Flask class in Python
 from flask import Flask
 
@@ -17,8 +17,10 @@ def index():
     # fallið skilar hér streng sem er sendur til biðlara (e. client) í vafra.
     return 'Hello, World!'
 
-# This starts the web app at port 81. 
-app.run(host='0.0.0.0', port=81)
-
-# Keyrðu python skránna og skoðaðu url http://localhost:81/ í vafra
+# This starts the web app 
+if __name__ == '__main__':
+    app.run()
+  # app.run(debug=True)  # This will allow the app to display a proper Python error message, so you can fix the typo/syntax error.
+  
+# Keyrðu python skránna og skoðaðu url í vafra
 ```
