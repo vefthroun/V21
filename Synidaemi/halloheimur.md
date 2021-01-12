@@ -16,12 +16,16 @@ def index():
 # This starts the web app 
 if __name__ == '__main__':
     app.run()
-  # app.run(debug=True)  # This will allow the app to display a proper Python error message, so you can fix the typo/syntax error.
-  # app.run(debug=True, use_reloader=True)  # reloader þýðir að þú þarft ekki að endurkeyra python skrá stöðugt þegar þú gerir kóðabreytingar.
+ 
 # Keyrðu python skránna og skoðaðu url í vafra
 ```
----
 
-### Sjá einnig
+#### Aðrir möguleikar
+
+```python
+# This will allow the app to display a proper Python error message, so you can fix the typo/syntax error.
+# reloader True þýðir að þú þarft ekki að endurkeyra python skrá stöðugt þegar þú gerir kóðabreytingar. 
+app.run(debug=True, use_reloader=True)  
+```
 - https://flask.palletsprojects.com/en/1.1.x/quickstart/
 - http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/
