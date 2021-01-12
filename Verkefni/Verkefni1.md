@@ -15,7 +15,6 @@ Dæmi:<br>
 ![Sýnidæmi](https://github.com/vefthroun/V21/blob/main/Verkefni/Myndir/verkefni1.png)
 
 Önnur og þriðja undirsíðan geta verið afrit af forsíðunni með nýjum fyrirsögnum og tenglum sem vísa á hinar síðurnar. 
-[Sýnidæmi](https://github.com/vefthroun/basic-flask)
 
 ---
 
