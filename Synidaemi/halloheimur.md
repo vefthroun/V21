@@ -17,7 +17,7 @@ def index():
 if __name__ == '__main__':
     app.run()
   # app.run(debug=True)  # This will allow the app to display a proper Python error message, so you can fix the typo/syntax error.
-  
+  # app.run(debug=True, use_reloader=True)  # reloader þýðir að þú þarft ekki að endurkeyra python skrá stöðugt þegar þú gerir kóðabreytingar.
 # Keyrðu python skránna og skoðaðu url í vafra
 ```
 ---
