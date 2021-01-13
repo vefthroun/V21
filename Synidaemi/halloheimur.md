@@ -1,10 +1,12 @@
 ## Halló heimur með (innbyggðum vef miðlara)
+- https://flask.palletsprojects.com/en/1.1.x/quickstart/
+- http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/
 
 ```python
 # import Flask class in Python
 from flask import Flask
 
-# Create app, that hosts the application
+# Create app, that hosts the application. Don't worry about that __name__ object, it's just a convention.
 app = Flask(__name__)
 
 # route that calls a Python function. A route maps what you type in the browser (the url) to a Python function.
@@ -15,23 +17,25 @@ def index():
 
 # This starts the web app 
 if __name__ == '__main__':
-    app.run()
- 
+    app.run(debug=True, use_reloader=True)   
+     # debug=True. This will allow the app to display a proper Python error message, so you can fix the typo/syntax error.
+     # use_reloader. use_reloader=True þýðir að þú þarft ekki að endurkeyra python skrá stöðugt þegar þú gerir kóðabreytingar. 
+     
 # Keyrðu python skránna og skoðaðu url í vafra
 ```
+
+#### Nánari skýringar
+
+- Flask API documentation [`Flask(__name__)`](https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask)
+- Decorators[`@app.route('/')](https://github.com/vefthroun/V21/blob/main/Efnistok/decorators.md)
+- Python documentation [`__main__`](https://docs.python.org/3/library/__main__.html)
+- Stack Overflow [`if __name__ == '__main__':`](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)
+
 ---
 
-#### Aðrir möguleikar
+### Aðrir stillingar
 
-```python
-# This will allow the app to display a proper Python error message, so you can fix the typo/syntax error.
-# reloader True þýðir að þú þarft ekki að endurkeyra python skrá stöðugt þegar þú gerir kóðabreytingar. 
-app.run(debug=True, use_reloader=True)  
-```
-Sjá einnig: 
 - Stillum uhverfisbreytu: `$env:FLASK_APP = "app.py"`
 - Keyrum app: `flask run`
 
-Linkar:
-- https://flask.palletsprojects.com/en/1.1.x/quickstart/
-- http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/
+
