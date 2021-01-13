@@ -28,5 +28,10 @@ if __name__ == '__main__':
 # reloader True þýðir að þú þarft ekki að endurkeyra python skrá stöðugt þegar þú gerir kóðabreytingar. 
 app.run(debug=True, use_reloader=True)  
 ```
+Sjá einnig: 
+- Stillum uhverfisbreytu: `$env:FLASK_APP = "app.py"`
+- Keyrum app: `flask run`
+
+Linkar:
 - https://flask.palletsprojects.com/en/1.1.x/quickstart/
 - http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/
