@@ -9,7 +9,10 @@ from flask import Flask
 # Create app, that hosts the application. Don't worry about that __name__ object, it's just a convention.
 app = Flask(__name__)
 
-# route that calls a Python function. A route maps what you type in the browser (the url) to a Python function.
+
+# route() maps what you type in the browser (the url) to a Python function.
+# @app.route() (@ er decorator í python) bindur fallið index() við URL. 
+# Whenever a browser requests a URL, the associated function is called and the return value is sent back to the browser
 @app.route('/')
 def index():
     # fallið skilar hér streng sem er sendur til biðlara (e. client) í vafra.
@@ -17,11 +20,12 @@ def index():
 
 # This starts the web app 
 if __name__ == '__main__':
+    # run, starts a built-in development server
     app.run(debug=True, use_reloader=True)   
-     # debug=True. This will allow the app to display a proper Python error message, so you can fix the typo/syntax error.
-     # use_reloader. use_reloader=True þýðir að þú þarft ekki að endurkeyra python skrá stöðugt þegar þú gerir kóðabreytingar. 
+            # debug=True. debug er nytsamlegt í vefþróun, gefur skýrari villuskilaboð.
+            # use_reloader. use_reloader=True þýðir að þú þarft ekki að endurkeyra python skrá stöðugt þegar þú gerir kóðabreytingar. 
      
-# Keyrðu python skránna og skoðaðu url í vafra
+# Keyrðu python skránna í CLI(cmd/terminal) og skoðaðu url í vafra (localhost)
 ```
 
 #### Nánari skýringar
@@ -32,7 +36,7 @@ if __name__ == '__main__':
 - Stack Overflow [`if __name__ == '__main__':`](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)
 
 ---
-
+ 
 ### Aðrir stillingar
 
 - Stillum uhverfisbreytu: `$env:FLASK_APP = "app.py"`
