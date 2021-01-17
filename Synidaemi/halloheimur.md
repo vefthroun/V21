@@ -16,7 +16,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # fallið skilar hér streng sem er sendur til biðlara (e. client) í vafra.
-    return 'Hello, World!'
+    return "<h1>Hello, World!</h1>"  # Við getum blandað html og texta.
 
 # This starts the web app 
 if __name__ == '__main__':
