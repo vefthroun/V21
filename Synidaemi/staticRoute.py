@@ -14,7 +14,7 @@ def page():
 
 # This starts the web app 
 if __name__ == '__main__':
-  app.run(debug=True)  # This will allow the app to display a proper Python error message, so you can fix the typo/syntax error.
+  app.run(debug=True, use_reloader=True)  # This will allow the app to display a proper Python error message, so you can fix the typo/syntax error.
   
 # Keyrðu python skránna og skoðaðu url í vafra
 
