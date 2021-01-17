@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # You can bind more than one route to a single callback (Chaining Decorators)
 @app.route('/')
-@app.route('/page')
+@app.route('/index')
 def page():
     # blöndum saman html elementum og texta í streng sem við skilum.
     return "<h1>Halló Heimur!</h1>"
