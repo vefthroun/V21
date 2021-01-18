@@ -14,7 +14,7 @@ Jinja substitutes {{ ... }} blocks with the corresponding values, given by the a
 def index():
     # data
     user = {'username': 'nemandi'}
-    # skilum html skránni index.html sem er vistuð í templates möppu (þurfum ekki að vísa í) með gögnum frá dictionary.
+    # skilum html skránni index.html sem er vistuð í templates möppu (þurfum ekki að vísa í) með gögnum frá breytu og dictionary.
     return render_template('tmp1.html', title='Home', user=user)
 
 
