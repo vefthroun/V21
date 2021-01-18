@@ -8,6 +8,8 @@ Simple Jinja template use case.
 The render_template() function invokes the Jinja template engine that comes bundled with the Flask framework. 
 Jinja substitutes {{ ... }} blocks with the corresponding values, given by the arguments provided in the render_template() call.
 
+HTML special characters are escaped automatically to prevent XSS attacks.
+
 """
 
 @app.route('/')
