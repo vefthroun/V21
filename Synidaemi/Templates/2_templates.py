@@ -4,7 +4,10 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 """
-Einfalt Jinja template
+Simple Jinja template use case.
+The render_template() function invokes the Jinja template engine that comes bundled with the Flask framework. 
+Jinja substitutes {{ ... }} blocks with the corresponding values, given by the arguments provided in the render_template() call.
+
 """
 
 @app.route('/')
