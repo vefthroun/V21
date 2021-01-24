@@ -13,8 +13,8 @@
         "id":"0",
         "titill":"Fyrirsögn",
         "innihald":"Meginmálstexti",
-        "hofundur":"GG@tskoli.is",
-        "netfang": "Guðmundur",
+        "hofundur":"Guðmundur",
+        "netfang": "GG@tskoli.is",
         "mynd": "/Gudmundur.png"
     }
  ] 
