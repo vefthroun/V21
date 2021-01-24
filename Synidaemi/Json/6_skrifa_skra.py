@@ -1,4 +1,4 @@
-from flask import Flask, json
+import json
 
 # Skilgreinum breytuna bekkur sem geymir dict (json hlut)
 bekkur = {
