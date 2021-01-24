@@ -27,7 +27,8 @@ bekkur['nemandi'].append({'nafn':'Alex','braut':'pfr'})
 for i in bekkur['nemandi']:
     print("Nafn :", i['nafn'])
 
-# Skrifum i skrána bekkur.json, er ekkert að pæla í íslenskum stöfum en það er hægt.
+# Skrifum i skrána bekkur.json, ef hún er ekki til þá er hún bil til sjálfkrafa.
+# er ekkert að pæla í íslenskum stöfum en það er hægt.
 with open("bekkur.json","w") as skra:
     # dump er fyrir skrár, dumps fyrir strengi
     json.dump(bekkur, skra)
