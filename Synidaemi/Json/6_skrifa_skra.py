@@ -29,8 +29,7 @@ for i in bekkur['nemandi']:
     print("Nafn :", i['nafn'])
 
 # Skrifum i skrána bekkur.json, ef hún er ekki til þá er hún bil til sjálfkrafa.
-# er ekkert að pæla í íslenskum stöfum en það er hægt.
-with open("bekkur2.json","w") as skra:
+with open("6.json","w") as skra:
     # dump er fyrir skrár, dumps fyrir strengi
     json.dump(bekkur, skra)
     skra.close() 
