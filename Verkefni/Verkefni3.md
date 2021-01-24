@@ -8,7 +8,7 @@
 
 ```JSON
 {
- "fréttir": [
+ "frettir": [
 	{
         "id":"0",
         "titill":"Fyrirsögn",
