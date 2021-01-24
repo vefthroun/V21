@@ -4,8 +4,8 @@ import json
 # Skilgreinum breytuna bekkur sem geymir dict (json hlut)
 bekkur = {
     'nemandi':[
-      {'nafn':'Daniel','braut':'tfb'},
-      {'nafn':'Hilmir','braut':'gdr'}
+      {'nafn':'Daniel','braut':'tbr13'},
+      {'nafn':'Hilmir','braut':'tbr16'}
     ]
 }
 
@@ -22,7 +22,7 @@ for i in bekkur['nemandi']:
 print()
 
 # Bætum við nemandi..
-bekkur['nemandi'].append({'nafn':'Alex','braut':'pfr'})
+bekkur['nemandi'].append({'nafn':'Alex','braut':'tbr19'})
 
 # Prentum aftur lista með nýjum nemanda
 for i in bekkur['nemandi']:
@@ -30,7 +30,7 @@ for i in bekkur['nemandi']:
 
 # Skrifum i skrána bekkur.json, ef hún er ekki til þá er hún bil til sjálfkrafa.
 # er ekkert að pæla í íslenskum stöfum en það er hægt.
-with open("bekkur.json","w") as skra:
+with open("bekkur2.json","w") as skra:
     # dump er fyrir skrár, dumps fyrir strengi
     json.dump(bekkur, skra)
     skra.close() 
