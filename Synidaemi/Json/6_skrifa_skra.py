@@ -1,3 +1,4 @@
+# python sýnidæmi (Flask ekki notað)
 import json
 
 # Skilgreinum breytuna bekkur sem geymir dict (json hlut)
