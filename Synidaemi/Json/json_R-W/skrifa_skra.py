@@ -1,7 +1,12 @@
 from flask import Flask, json
 
 # Skilgreinum breytuna bekkur sem geymir dict (json hlut)
-bekkur = {'nemandi':[{'nafn':'Daniel','braut':'tfb'},{'nafn':'Hilmir','braut':'gdr'}]}
+bekkur = {
+    'nemandi':[
+      {'nafn':'Daniel','braut':'tfb'},
+      {'nafn':'Hilmir','braut':'gdr'}
+    ]
+}
 
 # Skoðum innihald bekkur breytunnar - debug
 print(bekkur)
@@ -25,5 +30,5 @@ for i in bekkur['nemandi']:
 # Skrifum i skrána bekkur.json, er ekkert að pæla í íslenskum stöfum en það er hægt.
 with open("bekkur.json","w") as skra:
     # dump er fyrir skrár, dumps fyrir strengi
-    json.dump(bekkur,skra)
+    json.dump(bekkur, skra)
     skra.close() 
