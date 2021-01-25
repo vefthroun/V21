@@ -39,7 +39,7 @@ if __name__ == '__main__':
  
 #### Ef við viljum sleppa `app.run` í kóðanum
 
-- Stillum uhverfisbreytu í terminal: `$env:FLASK_APP = "app.py"`
+- Stillum umhverfisbreytu í terminal: `$env:FLASK_APP = "app.py"`
 - Keyrum app í terminal: `flask run` 
 
 
