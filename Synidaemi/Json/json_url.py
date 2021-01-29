@@ -1,4 +1,4 @@
-from flask import Flask, json, render_template
+from flask import Flask, json
 import urllib.request  # opnar leið að port 80
 
 app = Flask(__name__)
