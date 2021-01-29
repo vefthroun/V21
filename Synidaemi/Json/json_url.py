@@ -1,5 +1,5 @@
 from flask import Flask, json
-import urllib.request  # opnar leið að port 80
+import urllib.request  # urllib opnar leið að internetinu
 
 app = Flask(__name__)
 
