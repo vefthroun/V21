@@ -5,7 +5,7 @@
 
 ---
 
-### 1. Fosíða 8
+### 1. Fosíða 
 1. listi yfir alla söluaðila eldsneytis sem eru í Json skránni á http://apis.is/petrol (2%)
 1. hver söluaðili birtist aðeins einu sinni á forsíðunni. (1%)
 1. myndir (logo) söluaðila eru á forsíðunni (útfærsla með Json). (1%)
