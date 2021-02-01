@@ -10,7 +10,7 @@
 1. hver söluaðili birtist aðeins einu sinni á forsíðunni. (1%)
 1. myndir (logo) söluaðila eru á forsíðunni (útfærsla með Json). (1%)
 1. lægsta verð á 95 oktana bensíni og díesel olíu hverju sinni og nafn viðkomandi söluaðila. (2%)
-1. dagsetning síðustu uppfærslu `.json` skrár ( `timestampPriceCheck` ) með íslensku sniði. (2%)
+1. dagsetning síðustu uppfærslu `.json` skrár ( `timestampApis` ) með íslensku sniði. (2%)
 
 ### 2. Söluaðili (undirsíða)
 1. listi yfir allar bensínstöðvar (tenglar) hjá söluaðila. (3%)
