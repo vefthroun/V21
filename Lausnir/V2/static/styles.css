@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 50em;
+	margin:0 auto;
+	font-family: sans-serif;
+}
+.haus, .fotur {
+	border:1px solid grey;
+	border-radius: 5px;
+	color: #777;
+	text-align: center;
+}
+.fotur {
+	margin-top:2em;
+}
+.row {
+    display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 2em;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.pd-t-3 {
+	padding-top: 3em;
+}
+.errormsg {
+	color:#700;
+	text-align: center;
+}
+.top2em {
+	padding: 3em 0 0 2em;
+}
+nav {
+	padding-bottom:1em;
+}
+ol li a:visited {
+	color:red;
+}

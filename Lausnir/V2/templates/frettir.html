@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %} {{ frettir[0][1] }} {% endblock %}
+{% block content %}
+        <main class="row">
+            <section>
+                <h1>{{ frettir[0][1] }}</h1>
+                <img src="/static/mynd0.jpg">
+            </section>
+            <section class="pd-t-3">
+                <h3>Fréttir dagsins</h3>
+                <ol>
+                    {% for item in frettir %}
+                    <li><a href="/frett/{{ item[0] }}">{{ item[1] }}</a></li>
+                    {% endfor %}
+                </ol>
+            </section>
+        </main>
+{% endblock %}
