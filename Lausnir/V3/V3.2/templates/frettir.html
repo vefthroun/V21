@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    {% include 'navigation.html' ignore missing %}
+    <main id="container">
+     {% for item in frettalisti %}
+        <div id="article">
+            <h1>{{ item.titill }}</h1>
+             <p>{{ item.innihald }}</p>
+             <img src="/static/{{ item.mynd }}">
+             <p>Höfundur: {{ item.hofundur }},  {{ item.netfang }}</p>
+        </div>
+     {% endfor %}
+    </main>
+    {% include "footer.html" ignore missing %}
+</body>
+</html>
