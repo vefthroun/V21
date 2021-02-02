@@ -1,0 +1,17 @@
+{
+	"frettir": [{
+		"hofundur": "Guðmundur",
+		"id": "0",
+		"innihald": "Innihald fréttar",
+		"mynd": "Gudmundur.jpg",
+		"netfang": "GG@tskoli.is",
+		"titill": "fyrirsögn 1"
+	}, {
+		"hofundur": "Gunnar",
+		"id": "1",
+		"innihald": "Innihald fréttar",
+		"mynd": "Gunnar.jpg",
+		"netfang": "gus@tskoli.is",
+		"titill": "fyrirsögn 2"
+	}]
+}
