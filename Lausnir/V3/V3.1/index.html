@@ -1,0 +1,22 @@
+<html>
+    <head>       
+        <title>Verkefni 3.1</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <h1>Verkefni 3.1</h1>
+
+        {% if added %}
+        <div>
+            <h2>Takk fyrir að bæta við frétt!</h2>
+            <p>Skoðaðu JSON skránna til að sjá fréttaviðbætur</p>
+        </div>
+        {% else %}
+        <div>
+            <p>Smelltu á tengil til að bæta við frétt</p>
+            <a href="/add">Bæta við frétt</a>
+        </div>
+        {% endif %}
+
+    </body>
+</html>
