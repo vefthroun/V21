@@ -1,0 +1,13 @@
+#article {
+    background-color:lightgrey;
+    border: 1px solid #333;
+    box-shadow: 1px 1px 1px #444;
+    padding: 6px;
+  
+}
+.header{
+    background-color: lightpink;
+}
+.footer{
+    background-color: linen;
+}
