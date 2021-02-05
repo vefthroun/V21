@@ -67,8 +67,8 @@ for item in data["results"]:
 	if item["shortName"] is not None:  # True if empty string, empty list, equals to zero. “None” is Python’s name for a null reference.
 		gengi.append(item["shortName"])  # bætum við í listann gengi
 
-print(gengi) # ['ISK', 'USD', '']
-# if item["shortName"]: # ['ISK', 'USD']
+print(gengi) # ['ISK', 'USD', 'USD', '']
+# if item["shortName"]: # ['ISK', 'USD', 'USD']
 """
 
 # Sýnidæmi 3
