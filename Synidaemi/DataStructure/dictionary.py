@@ -20,6 +20,15 @@ data = {
 		'changeCur': 0.360374,
 		'changePer': '0.00'
 	},{
+		'shortName': 'USD',
+		'longName': 'Bandarískur dalur',
+		'value': 130,
+		'askValue': 130.89,
+		'bidValue': 129.98,
+		'changeCur': 0.360374,
+		'changePer': '0.00'
+	},
+	{
 		'shortName': '',
 		'longName': 'Pund',
 		'value': 181,
@@ -65,11 +74,9 @@ print(gengi) # ['ISK', 'USD', '']
 gengi = [] 
 for item in data["results"]:
 	if item["shortName"] not in gengi:  # setjum bara einu sinni sömu gengisupplýsingar.
-		# bætum við gengisupplýsingum sem dictionary í listann sem heitir gengi
-		gengi.append({ "longName": item["longName"], "shortName": item["shortName"]})  
-
+		# bætum við gengisupplýsingum (shortName) í listann sem heitir gengi
+		gengi.append(item["shortName"])  
 print(gengi)
-print(gengi[1]["shortName"]) # USD
 """
 
 
