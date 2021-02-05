@@ -56,6 +56,8 @@ for item in data["results"]:
 	print(item['longName'])  
 		# Íslensk króna
 		# Bandarískur dalur
+		# Bandarískur dalur
+		# Pund
 """
 
 # Sýnidæmi 2
