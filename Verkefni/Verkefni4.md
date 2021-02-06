@@ -1,7 +1,7 @@
 
 ## Verkefni 4  (14%)
 
-Útfærðu vefapp með Flask sem sækir upplýsingar af [APis](http://apis.is/petrol). Vefforritið skal m.a. birta upplýsingar um söluaðila eldsneytis á Íslandi ásamt bensínstöðvum þeirra, sjá [sýnidæmi](http://tolvubraut.is/iframes/vef2vf-midverk.html)
+Útfærðu vefapp með Flask sem sækir upplýsingar af [APis](http://apis.is/petrol). Vefforritið skal m.a. birta upplýsingar um söluaðila eldsneytis á Íslandi ásamt bensínstöðvum þeirra, svipað og [Gasvaktin](https://gasvaktin.is/) gerir. Sjá einnig hér [sýnidæmi](http://tolvubraut.is/iframes/vef2vf-midverk.html)
 
 ---
 
