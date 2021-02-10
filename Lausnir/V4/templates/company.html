@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Allar stöðvar hjá {{ company }} </h1>
+    <p>Fjöldi stöðva: {{bensinstodvar|count}}</p>  <!-- filter í jinja -->
+    <ul class="column-list">
+        {% for bensinstod in bensinstodvar %}
+        <li><a href="/bensinstod/{{ bensinstod.key }}">{{ bensinstod.name }}</a></li>
+        {%endfor%}
+    </ul>
+{% endblock %}

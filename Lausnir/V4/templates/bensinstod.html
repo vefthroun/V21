@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    {% for item in bensinstodvar %}
+        {% if item.key == key %}
+            <h1>{{ item.company }}, {{ item.name }}.</h1>
+            <p>Verð á 1. lítra af bensíni: {{ item.bensin95 }} kr.</p>
+            <p>Verð á 1. lítra af dísel: {{ item.diesel }} kr. </p>
+            <p><a href="https://www.google.com/maps/@{{item.geo.lat}},{{item.geo.lon}},17z/">Staðsetning á korti</a>
+        {% endif %}
+    {%endfor%}
+</div>
+{% endblock %}

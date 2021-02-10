@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="pure-g">
+	{% for item in companies %}	
+	<div class="pure-u-1-4">
+		<a href="/company/{{ item }}"><img class="pure-img" src="static/{{ item }}.png"></a>
+	</div>
+	{% endfor %}
+</div>
+
+<div class="pure-g">
+	{% for gas in gaslist %}	
+	<div class="pure-u-1-1">
+		<p>{{ gas.gastype }} {{ gas.minPetrolPrice }} kr. er ódýrast hjá {{ gas.company }}, {{ gas.address }}.</p> 
+	</div>
+	{% endfor %}
+</div>
+
+{% endblock %}

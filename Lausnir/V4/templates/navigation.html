@@ -1,0 +1,10 @@
+<nav class="pure-menu pure-menu-horizontal">
+		<ul class="pure-menu-list">
+    	{% for company in companies %}
+	  		<li class="pure-menu-item"><a href="/company/{{ company }}" class="pure-menu-link">{{ company }}</a></li>
+		 {% endfor %}
+		</ul>
+</nav> 
+
+
+
