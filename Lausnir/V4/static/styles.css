@@ -1,0 +1,30 @@
+body{
+	background-color: lightsteelblue;
+}
+.wrapper{
+	background-color: white;
+	margin-right: auto; 
+	margin-left:  auto; 
+	max-width: 960px; 
+	padding-right: 10px; 
+	padding-left:  10px; 
+}
+nav{
+	margin-bottom: 20px;
+}
+img{
+	width:8em;
+	height:auto;
+}
+
+.column-list {
+	list-style-type: none;
+	columns: 200px;
+  }
+.column-list  a {
+	text-decoration: none;
+	color: black;
+}
+.haegri{
+	text-align: right;
+}
