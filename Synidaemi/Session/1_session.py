@@ -1,8 +1,6 @@
 from flask import Flask, render_template, session, redirect
 import os
 
-# sessions
-
 app = Flask(__name__)
 
 # session lykill
@@ -28,7 +26,6 @@ def add(id):
     # búum til körfu
     karfa = []
     # ef við höfum bætt við id af vöru áður þá
-    #if "karfa2" 
     if "cart_items" in session:
         # sækjum vöruids úr sessions
         karfa = session['cart_items']
