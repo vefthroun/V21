@@ -29,11 +29,11 @@ Náðu í viðbót í Flask sem heitir `pyrebase4` með pip install.
 
 ---
 
-## Námsmat og skil 
+### Námsmat og skil 
 
-- Gagnagrunnur 	(4%)
-- Nýskráning 	(4%)
-- Innskráning 	(4%)
-- Útskráning 	(2%)
+- Gagnagrunnur (4%)
+- Nýskráning   (4%)
+- Innskráning  (4%)
+- Útskráning 	 (2%)
 
 Skilaðu á Innu tengil á lokaða Githubgeymslu sem inniheldur kóða og gögn fyrir verkefni 6
