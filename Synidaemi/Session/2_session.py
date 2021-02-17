@@ -81,7 +81,7 @@ def profile():
         print("No username found in session")
         return redirect(url_for("sign_in"))
 
-
+# Eyða session
 @app.route("/sign-out")
 def sign_out():
     session.pop("USERNAME", None)
