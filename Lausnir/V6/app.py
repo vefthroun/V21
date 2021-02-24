@@ -9,7 +9,7 @@ app.config['SECRET_KEY'] = os.urandom(8) # hver beiðni (request) fær random se
 
 # tengin við Firebase Realtime database á firebase.google.com 
 config = {
-    "apiKey": "AIzaSyBdJjj-rcjvE5AM7RzH80xcaWrM7v5uL1s",
+    "apiKey": "",
     "authDomain": "verk5-42253.firebaseapp.com",
     "databaseURL": "https://verk5-42253.firebaseio.com",
     "projectId": "verk5-42253",
