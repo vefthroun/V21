@@ -10,7 +10,7 @@
 
 ### Sundurliðun
 
-#### Firebase gagnagunnur (aðeins ritsjóri hefur aðgang)
+#### Firebase gagnagunnur (aðeins ritstjóri hefur aðgang)
 
 Í gagnagrunninum eru 2 töflur
 
