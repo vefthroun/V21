@@ -31,7 +31,7 @@
 2. login
    * ritstjóri getur skráð sig inn á /editor með _session login_
 3. editor (lokuð síða)
-   * editor/newpost - ritsjóri getur skráð nýja pósta
-   * editor/deletepost - ritsjóri getur eytt pósti úr gagnagrunninum
+   * editor/newpost - ritstjóri getur skráð nýja pósta
+   * editor/deletepost - ritstjóri getur eytt pósti úr gagnagrunninum
 
 ### Templates tilkynningar, geta verið nánast þær sömu og í 6. verkefni
