@@ -29,7 +29,7 @@
 1. index
    * Hér birtast allir póstar úr gagnagrunni (_read only_)
 2. login
-   * ritsjóri getur skráð sig inn á /editor með _session login_
+   * ritstjóri getur skráð sig inn á /editor með _session login_
 3. editor (lokuð síða)
    * editor/newpost - ritsjóri getur skráð nýja pósta
    * editor/deletepost - ritsjóri getur eytt pósti úr gagnagrunninum
